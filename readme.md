@@ -22,6 +22,7 @@ $ gulp
 ## :clapper: Gulp tasks
 - `gulp`
 - `gulp styles`
+- `gulp scripts`
 
 
 ## :scream_cat: TODOs
