@@ -28,6 +28,8 @@ $ gulp
 - [x] [PostCSS](https://github.com/postcss/gulp-postcss) — Pipe CSS through PostCSS processors with a single parse
 - [x] [Autoprefixer](https://github.com/postcss/autoprefixer) — Parse CSS and add vendor prefixes to rules by Can I Use
 - [x] [CSSNext](https://github.com/cssnext/cssnext) — Use tomorrow's CSS syntax, today
+- [x] [Browserify](https://github.com/substack/node-browserify) — Use a node-style require() to organize your browser code
+- [x] [Babelify](https://github.com/babel/babelify) — Browserify transform for Babel
 - [ ] Design new logo
 
 ## :raised_hands: Inspired by
