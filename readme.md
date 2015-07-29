@@ -29,6 +29,7 @@ $ gulp
 - [x] [Autoprefixer](https://github.com/postcss/autoprefixer) — Parse CSS and add vendor prefixes to rules by Can I Use
 - [x] [CSSNext](https://github.com/cssnext/cssnext) — Use tomorrow's CSS syntax, today
 
+- [ ] Design new logo
 
 ## :raised_hands: Inspired by
 - [blackList.json (Gulp)](https://github.com/gulpjs/plugins/blob/master/src/blackList.json)
