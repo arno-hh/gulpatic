@@ -20,15 +20,14 @@ $ gulp
 
 
 ## :clapper: Gulp tasks
-...
-
-
-## :gift_heart: Do you like gulpatic?
-[Spread word on Twitter](https://twitter.com/intent/tweet?text=gulpatic%20—%20Static%20server%20with%20gulp&url=https%3A%2F%2Fgithub.com%2Fboriskaiser%2Fgulpatic&via=boriskaiser)
+- `gulp`
+- `gulp styles`
 
 
 ## :scream_cat: TODOs
-- [ ] ...
+- [x] [PostCSS](https://github.com/postcss/gulp-postcss) — Pipe CSS through PostCSS processors with a single parse
+- [x] [Autoprefixer](https://github.com/postcss/autoprefixer) — Parse CSS and add vendor prefixes to rules by Can I Use
+- [x] [CSSNext](https://github.com/cssnext/cssnext) — Use tomorrow's CSS syntax, today
 
 
 ## :raised_hands: Inspired by

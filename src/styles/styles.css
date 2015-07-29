@@ -1,0 +1,7 @@
+:root {
+	--colorGold: #e4bc82;
+}
+
+body {
+	background-color: var(--colorGold);
+}
