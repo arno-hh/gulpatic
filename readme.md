@@ -28,7 +28,6 @@ $ gulp
 - [x] [PostCSS](https://github.com/postcss/gulp-postcss) — Pipe CSS through PostCSS processors with a single parse
 - [x] [Autoprefixer](https://github.com/postcss/autoprefixer) — Parse CSS and add vendor prefixes to rules by Can I Use
 - [x] [CSSNext](https://github.com/cssnext/cssnext) — Use tomorrow's CSS syntax, today
-
 - [ ] Design new logo
 
 ## :raised_hands: Inspired by
