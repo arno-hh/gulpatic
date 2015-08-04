@@ -1,15 +1,14 @@
 'use strict';
 
-var gulp = require('gulp');
-var paths = require('../config/paths');
-var stylesFolder = 'styles';
+import gulp from 'gulp';
+import postcss from 'gulp-postcss';
+import autoprefixer from 'autoprefixer';
+import cssnext from 'cssnext';
 
-var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
-var cssnext = require('cssnext');
+import { paths } from '../config/paths';
+const stylesFolder = 'styles';
 
-
-gulp.task('styles', function () {
+gulp.task('styles', () => {
 	var processors = [
 		autoprefixer({browsers: ['last 1 version']}),
 		cssnext()

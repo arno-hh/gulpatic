@@ -1,7 +1,8 @@
 'use strict';
 
 // Require all tasks in /gulpfile.js/tasks, including subfolders
-var requireDir = require('require-dir');
+import requireDir from 'require-dir';
+
 requireDir('./tasks', {
 	recurse: true
 });

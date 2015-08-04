@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = {
+export const paths = {
 	src: 'src',
 	tmp: '.tmp',
 	dist: 'dist',
