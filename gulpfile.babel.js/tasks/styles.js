@@ -5,7 +5,7 @@ import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
 import cssnext from 'cssnext';
 
-import { paths } from '../config/paths';
+import { dirs } from '../config';
 const stylesFolder = 'styles';
 
 gulp.task('styles', () => {
@@ -14,7 +14,7 @@ gulp.task('styles', () => {
 		cssnext()
 	];
 
-	return gulp.src(paths.src + '/' + stylesFolder + '/*.css')
+	return gulp.src(dirs.src + '/' + stylesFolder + '/*.css')
 		.pipe(postcss(processors))
-		.pipe(gulp.dest(paths.current + '/' + stylesFolder));
+		.pipe(gulp.dest(dirs.current + '/' + stylesFolder));
 });
